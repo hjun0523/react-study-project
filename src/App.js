@@ -7,7 +7,7 @@ function App() {
   const [ testStr, setTestStr ] = useState('');
 
   // 변수 초기화
-  function callback(str) {
+  function callback(str) {   
     setTestStr(str);
   }    
 
