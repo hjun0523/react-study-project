@@ -11,7 +11,7 @@ function App() {
     setTestStr(str);
   }    
 
-  // 첫 번째 렌더링을 마친 후 실행
+  // 첫 번째 렌더링을 마친 후 실행   
   useEffect(
       () => {
         axios({
