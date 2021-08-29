@@ -9,7 +9,7 @@ function App() {
   // 변수 초기화
   function callback(str) {
     setTestStr(str);
-  }
+  }  
 
   // 첫 번째 렌더링을 마친 후 실행
   useEffect(
