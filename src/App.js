@@ -15,7 +15,7 @@ function App() {
   useEffect(
       () => {
         axios({
-            url: '/user',
+            url: '/user',  
             method: 'GET'
         }).then((res) => {
             callback(res.data);
